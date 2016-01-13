@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: repeating-radial-gradient(#fff, #3399FF, #3399FF, #fff);
+    color: #fff;
+}
+hr {
+    background-color: #fff;
+    color: #ffae19;
+    border-radius: 50%;
+    border-color: #fff;
+    border-style: ridge;
+    height: 3px;
+    margin: 10px 40px;
+}
+
+.jumbotron,
+.well h2,
+.well p,
+.carousel-indicators,
+.carousel-control.right,
+.carousel-control.left {
+    background: rgba(51, 153, 255, 0.25);
+    border-radius: 15px;
+}
+
+.jumbotron {
+    margin: 15px;
+	padding: 5px 0;
+    margin-bottom: 30px;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #e3e3e3;
+    text-align: center;
+}
+.jumbotron h1 {
+    font-size: 40px;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+	color: #fff;
+    text-decoration: none;
+}
+a:hover {
+	color: #999;
+}
+.well {
+    float: left;
+}
+.well-lg {
+    overflow: hidden;
+	
+}
+.well,
+.well-lg {
+    position: relative;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding: 19px;
+	margin: 15px 50px;
+    border: 1px solid #e3e3e3;
+    background: rgba(51, 153, 255, 0.25);
+    text-align: center;
+}
+.well h3,
+.well-lg h3 {
+    padding: 5px;
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+	margin:3px;
+}
+.well h2 {
+    padding: 5px;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+.well-lg p {
+    padding: 20px;
+    font-size: 18px;
+}
+.well img {
+    margin: auto;
+    padding: 20px 0;
+    border-radius: 25px;
+	width: 640px;
+}

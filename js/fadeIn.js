@@ -1,0 +1,1 @@
+$('.jumbotron, .well, .well-sm, .well-lg');$('.jumbotron').hide().fadeIn(500);$('.well').hide().fadeIn(750);$('.well-sm').hide().fadeIn(1000);$('.well-lg').hide().fadeIn(1500);
