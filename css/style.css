@@ -4,7 +4,7 @@
 }
 body {
     font-family: 'Josefin Sans', sans-serif;
-    background: rgba(52, 152, 219, .7);
+	background: rgba(154, 204, 237, .7);
     color: #fff;
 }
 hr {
@@ -22,13 +22,18 @@ hr {
 .carousel-control.left {
     border-radius: 15px;
 }
+.carousel-indicators,
+ .carousel-control.right,
+.carousel-control.left {
+	background: rgba(130, 130, 130, .4);
+}
 .well h2,
 .well p {
-    background: rgba(200, 200, 200, .2);
+    background: rgba(130, 130, 130, .6);
+	border-radius: 15px;
 }
 .jumbotron {
     margin: 0px;
-    background: transparent;
     border: 1px solid #e3e3e3;
     text-align: center;
 	padding-top: 10px;
@@ -60,16 +65,17 @@ a:hover {
 .well,
 .well-lg,
 .jumbotron {
-    background: rgba(200, 200, 200, .5);
+    background: rgba( 130, 130, 130, .5);
+	border-color:#fff;
+	border-width:px;
+    border-radius: 30px;
 }
 .well,
 .well-lg {
     position: relative;
     margin: 15px 50px;
-    border: 1px solid #e3e3e3;
     text-align: center;
     max-width: 900px;
-    border-radius: 30px;
 }
 .well h3,
 .well-lg h3 {
@@ -81,6 +87,9 @@ a:hover {
 }
 .well-lg p {
     font-size: 18px;
+}
+.well p {
+	    font-size: 20px;
 }
 .well img {
     margin: auto;
